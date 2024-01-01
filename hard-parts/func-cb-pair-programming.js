@@ -122,6 +122,7 @@ function union(arrays) {
     // go through each value of the array
     for (let arrValue = 0; arrValue < arrToCompare.length; arrValue++) {
       // filter out values based on matching
+      // doesn't seem to hit this branch
       for (
         let compArray = arrToCompare + 1;
         compArray < arrays.length;
